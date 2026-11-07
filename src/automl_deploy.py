@@ -1,3 +1,11 @@
+"""TP5 - src/automl_deploy.py
+
+ROLE      : FLAML 90 s, extrait le modele gagnant (xgboost), verifie qu'il donne le meme F1, et l'enregistre dans le registre.
+ENTREE    : data/transactions.csv
+SORTIE    : models/model_automl.pkl + modele 'fraude-automl' version 1 dans MLflow
+A RETENIR : automl.model.estimator = le vrai modele, sans la machinerie de recherche : plus leger et portable.
+"""
+
 import time
 from pathlib import Path
 import joblib

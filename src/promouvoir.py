@@ -1,3 +1,11 @@
+"""TP5 - src/promouvoir.py
+
+ROLE      : Donne l'alias 'production' a la version la plus recente d'un modele.
+ENTREE    : nom du modele en argument (fraude-automl ou fraude-manuel)
+SORTIE    : alias production dans le registre
+A RETENIR : Le service HTTP sert 'models:/nom@production' : il suit l'alias.
+"""
+
 import sys
 import mlflow
 from mlflow import MlflowClient

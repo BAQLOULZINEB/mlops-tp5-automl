@@ -1,3 +1,11 @@
+"""TP5 - src/modele_manuel.py
+
+ROLE      : Re-entraine le modele manuel du TP2 (foret 500/16) et l'enregistre dans le MEME registre.
+ENTREE    : data/transactions.csv
+SORTIE    : models/model_manuel.pkl + modele 'fraude-manuel' version 1
+A RETENIR : Pour comparer honnetement, les deux modeles suivent exactement le meme chemin.
+"""
+
 import time
 from pathlib import Path
 import joblib

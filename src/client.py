@@ -1,3 +1,11 @@
+"""TP5 - src/client.py
+
+ROLE      : Joue le role d'une application cliente : appelle l'API, puis mesure 200 appels (mediane et p95).
+ENTREE    : numero de port du service (8100 AutoML, 8101 manuel)
+SORTIE    : affichage : reponse + latence mediane et p95 en ms
+A RETENIR : Le p95 (95 % des appels plus rapides) montre la stabilite ressentie par les utilisateurs.
+"""
+
 import sys
 import time
 import statistics

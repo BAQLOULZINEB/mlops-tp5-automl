@@ -1,4 +1,10 @@
-"""Generate the reproducible synthetic fraud dataset used by TP2."""
+"""TP5 - donnees.py
+
+ROLE      : Fabrique le jeu de 5000 transactions bancaires (synthetiques) avec une graine fixe.
+ENTREE    : rien (tirage aleatoire avec la graine 7)
+SORTIE    : data/transactions.csv (5000 lignes, 568 fraudes)
+A RETENIR : Meme graine = memes donnees pour toute la promo : c'est la base de la reproductibilite.
+"""
 
 from pathlib import Path
 

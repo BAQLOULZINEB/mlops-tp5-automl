@@ -13,3 +13,6 @@ mlartifacts/
 
 # Preferences locales de l editeur
 .vscode/
+
+# rapports de TP : remis par e-mail, pas sur GitHub
+rapport_tp*.md
